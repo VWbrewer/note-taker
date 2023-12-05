@@ -1,8 +1,6 @@
 # note_taker
 I want to save my notes and track them
 
-# <Your-Project-Title>
-
 ## Description
 
 Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
