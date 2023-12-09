@@ -1,5 +1,6 @@
 const express = require('express');
 
+
 const routes = require('./routes/apiRoutes.js');
 const htmlRouter = require('./routes/htmlRoutes.js');
 const apiRouter = require('./routes/apiRoutes.js');
@@ -17,6 +18,6 @@ app.use('/api', apiRouter);
 
 
 // app listener
-app.listen(PORT, () => {
+app.listen (PORT, function(){
     console.log(`App listening at http://localhost:${PORT}`);
 });
